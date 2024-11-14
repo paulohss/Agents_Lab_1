@@ -1,0 +1,20 @@
+
+OpenAI api response for a function call:
+
+{
+  "content": null,
+  "refusal": null,
+  "role": "assistant",
+  "audio": null,
+  "function_call": null,
+  "tool_calls": [
+    {
+      "id": "call_PDsnpuCk6hLO4GjYzMolxnjF",
+      "function": {
+        "arguments": "{\"location\":\"Jakarta\"}",
+        "name": "get_weather"
+      },
+      "type": "function"
+    }
+  ]
+}
